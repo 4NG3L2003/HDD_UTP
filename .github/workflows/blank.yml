@@ -16,17 +16,17 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     env:
-      plataform: ashure
-      region: Peru
-      cuenta: 123456
+      plataform: "ashure"
+      region: "Peru"
+      cuenta: "123456"
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, mundo!
+      - name: "Run a one-line script"
+        run: echo "Hello, mundo!"
       - name: " Mensaje del Sabado 27"
         run: echo "Curso de herramientas de desarrollo"
       - name: "Variables del programa"
