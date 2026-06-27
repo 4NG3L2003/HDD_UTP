@@ -23,4 +23,5 @@ jobs:
         run: echo "Curso de herramientas de desarrollo"
 
       - name: Variables del programa
-        run: 'echo "La plataforma actual es: ${{ env.plataform }}"'
+        run: |
+          echo "La plataforma actual es: ${{ env.plataform }}"
