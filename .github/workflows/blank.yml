@@ -22,7 +22,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Hello, mundo!
       - name: " Mensaje del Sabado 27"
         run: echo "Curso de herramientas de desarrollo"
 
