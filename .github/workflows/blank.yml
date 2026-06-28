@@ -14,6 +14,7 @@ jobs:
       plataform: ashure
       region: Peru
       cuenta: 123456
+      clase: HDD
 
     steps:
       - name: Run a one-line script
@@ -25,3 +26,4 @@ jobs:
       - name: Variables del programa
         run: |
           echo "La plataforma actual es: ${{ env.plataform }}"
+          echo "La plataforma actual es: ${{ env.clase }}"
