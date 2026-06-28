@@ -28,4 +28,5 @@ jobs:
         run: |
              echo "La plataforma actual es: ${{ env.plataform }}"
              echo "La plataforma actual es: ${{ env.clase }}"
-             echo "El repositorio es GITHUB_REPOSITORY"
+             echo "El repositorio es $GITHUB_REPOSITORY"
+              echo "El Dueno es $GITHUB_ACTOR"
